@@ -4774,23 +4774,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Zacaria\\.nuget\\packages\\": {},
+    "C:\\Users\\gabri\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\lp4\\Barberia\\Server\\Barberia.Server.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Server\\Barberia.Server.csproj",
       "projectName": "Barberia.Server",
-      "projectPath": "C:\\lp4\\Barberia\\Server\\Barberia.Server.csproj",
-      "packagesPath": "C:\\Users\\Zacaria\\.nuget\\packages\\",
-      "outputPath": "C:\\lp4\\Barberia\\Server\\obj\\",
+      "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Server\\Barberia.Server.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Zacaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4806,11 +4806,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\lp4\\Barberia\\Client\\Barberia.Client.csproj": {
-              "projectPath": "C:\\lp4\\Barberia\\Client\\Barberia.Client.csproj"
+            "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Client\\Barberia.Client.csproj": {
+              "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Client\\Barberia.Client.csproj"
             },
-            "C:\\lp4\\Barberia\\Shared\\Barberia.Shared.csproj": {
-              "projectPath": "C:\\lp4\\Barberia\\Shared\\Barberia.Shared.csproj"
+            "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Shared\\Barberia.Shared.csproj": {
+              "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Shared\\Barberia.Shared.csproj"
             }
           }
         }
