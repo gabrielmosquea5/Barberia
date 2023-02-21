@@ -96,3 +96,15 @@ C:\lp4\Barberia\Server\obj\Debug\net7.0\refint\Barberia.Server.dll
 C:\lp4\Barberia\Server\obj\Debug\net7.0\Barberia.Server.pdb
 C:\lp4\Barberia\Server\obj\Debug\net7.0\Barberia.Server.genruntimeconfig.cache
 C:\lp4\Barberia\Server\obj\Debug\net7.0\ref\Barberia.Server.dll
+C:\Users\gabri\Documents\GitHub\Barberia\Server\obj\Debug\net7.0\Barberia.Server.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\GitHub\Barberia\Server\obj\Debug\net7.0\Barberia.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\GitHub\Barberia\Server\obj\Debug\net7.0\Barberia.Server.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\GitHub\Barberia\Server\obj\Debug\net7.0\Barberia.Server.AssemblyInfo.cs
+C:\Users\gabri\Documents\GitHub\Barberia\Server\obj\Debug\net7.0\Barberia.Server.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\GitHub\Barberia\Server\obj\Debug\net7.0\Barberia.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gabri\Documents\GitHub\Barberia\Server\obj\Debug\net7.0\Barberia.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabri\Documents\GitHub\Barberia\Server\obj\Debug\net7.0\Barberia.Server.RazorAssemblyInfo.cache
+C:\Users\gabri\Documents\GitHub\Barberia\Server\obj\Debug\net7.0\Barberia.Server.RazorAssemblyInfo.cs
+C:\Users\gabri\Documents\GitHub\Barberia\Server\obj\Debug\net7.0\Barberia.Server.dll
+C:\Users\gabri\Documents\GitHub\Barberia\Server\obj\Debug\net7.0\refint\Barberia.Server.dll
+C:\Users\gabri\Documents\GitHub\Barberia\Server\obj\Debug\net7.0\Barberia.Server.pdb
