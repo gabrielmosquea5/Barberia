@@ -198,18 +198,18 @@
       "mscorlib.dll": "sha256-T52Qf1cS\/UysEoWOoE2ptEJEXfGpanQX5KNLyDiLv1E=",
       "netstandard.dll": "sha256-p32h5P3QmHJ\/FGoeE6m7f5g\/8ng2PSPGZktHyMadvIs=",
       "System.Private.CoreLib.dll": "sha256-6MwQcyKbqBsoZYOcD9fQJ4iKcn1qMmWRWVEkU2LLCb0=",
-      "Barberia.Shared.dll": "sha256-A+PKC5IDJ+ogrbGwY7Z2FXVWet0X8AJUMsbrAvHXeDE=",
-      "Barberia.Client.dll": "sha256-1co16QU67qonJBI1nD0y9hrrpXNPmDzSuSLStwvpu\/0="
+      "Barberia.Shared.dll": "sha256-vGS7cxR9psspj9Y71LujYaYZEsh8Y3OPz4eukUFKPEY=",
+      "Barberia.Client.dll": "sha256-klIDw3j2UBGMtiViWl5433+sKpJ8nSZQFC9Z6Y0R5C4="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Barberia.Shared.pdb": "sha256-shGrX5fINKUm0TfaYhLfQYskBEvrhoT410v9oEVgwwU=",
-      "Barberia.Client.pdb": "sha256-0qaA\/ovKDVxDa3K6zgTgyKjmu973kNnpUDtnHo1hcFI="
+      "Barberia.Shared.pdb": "sha256-wO0SzX4nqRtsmYpnhk6GWuXzZUbmFsNpr1zat\/p++lU=",
+      "Barberia.Client.pdb": "sha256-zSxkQPyYEypD+YfkddyWBrN6+lBkFZuXfQw3oVw2cMU="
     },
     "runtime": {
-      "dotnet.7.0.2.4f3zva5m5j.js": "sha256-4mh03qTse0uNR+dQ6ydExm4jJXph0RE8zGNCtF0jiNA=",
+      "dotnet.7.0.2.f23k7zro6k.js": "sha256-4mh03qTse0uNR+dQ6ydExm4jJXph0RE8zGNCtF0jiNA=",
       "dotnet.timezones.blat": "sha256-ics+RIevvtH3z9plMxv4\/GSMK9+LKYd9sy3FRRI5qTI=",
       "dotnet.wasm": "sha256-U4Yv0mEAN9gesUDNM9s6uB3RdekdPqtggt1OsytNIQM=",
       "icudt.dat": "sha256-DXO3tJHXDOV4qgW\/w8ooggAgZdAVpa5ZllYYAQWpYIk=",

@@ -838,7 +838,7 @@
     },
     {
       "hash": "sha256-4mh03qTse0uNR+dQ6ydExm4jJXph0RE8zGNCtF0jiNA=",
-      "url": "_framework\/dotnet.7.0.2.4f3zva5m5j.js"
+      "url": "_framework\/dotnet.7.0.2.f23k7zro6k.js"
     },
     {
       "hash": "sha256-ics+RIevvtH3z9plMxv4\/GSMK9+LKYd9sy3FRRI5qTI=",
@@ -865,19 +865,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-A+PKC5IDJ+ogrbGwY7Z2FXVWet0X8AJUMsbrAvHXeDE=",
+      "hash": "sha256-vGS7cxR9psspj9Y71LujYaYZEsh8Y3OPz4eukUFKPEY=",
       "url": "_framework\/Barberia.Shared.dll"
     },
     {
-      "hash": "sha256-shGrX5fINKUm0TfaYhLfQYskBEvrhoT410v9oEVgwwU=",
+      "hash": "sha256-wO0SzX4nqRtsmYpnhk6GWuXzZUbmFsNpr1zat\/p++lU=",
       "url": "_framework\/Barberia.Shared.pdb"
     },
     {
-      "hash": "sha256-1co16QU67qonJBI1nD0y9hrrpXNPmDzSuSLStwvpu\/0=",
+      "hash": "sha256-klIDw3j2UBGMtiViWl5433+sKpJ8nSZQFC9Z6Y0R5C4=",
       "url": "_framework\/Barberia.Client.dll"
     },
     {
-      "hash": "sha256-0qaA\/ovKDVxDa3K6zgTgyKjmu973kNnpUDtnHo1hcFI=",
+      "hash": "sha256-zSxkQPyYEypD+YfkddyWBrN6+lBkFZuXfQw3oVw2cMU=",
       "url": "_framework\/Barberia.Client.pdb"
     },
     {
@@ -885,9 +885,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-Q82xn2MQbhbpcEjR8pyn\/yMgKY\/NVJnswfSlobYDrcw=",
+      "hash": "sha256-AFfFDZlSNWHV9buZuPsyEAu85kF+aKqWEakw3ctirEs=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "SwA43PUT"
+  "version": "2as40nzk"
 };

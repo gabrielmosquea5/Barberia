@@ -1,3 +1,4 @@
+using System.Globalization;
 using Microsoft.EntityFrameworkCore;
 using Barberia.Server.Models;
 
@@ -11,29 +12,24 @@ public interface IMyDbContext
     Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 }
 
-public class MyDbContext : DbContext, IMyDbContext
+internal class MyDbContext : DbContext, IMyDbContext
 {
     //Constructor de la clase 
-    protected readonly IConfiguration configuration;
-    public MyDbContext(IConfiguration _configuration)
-    {
-        configuration = _configuration;
+    protected readonly IConfiguration _configuration;
+    public MyDbContext(IConfiguration configuration) 
+    { 
+        _configuration = configuration;
     }
-
-
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
-        optionsBuilder.UseSqlServer(config.GetConnectionString("Barberia"));
+        options.UseSqlServer(_configuration.GetConnectionString("Barberia"));
     }
-
+    #region Tablas de la BD.
+    public DbSet<Usuario> Usuarios { get; set; } = null!;
+    public DbSet<UsuarioRol> UsuariosRoles { get; set; } = null!;
+    #endregion
     public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
     {
         return base.SaveChangesAsync(cancellationToken);
     }
-
-    #region Tablas de mi base de datos
-    public DbSet<UsuarioRol> UsuariosRoles { set; get; } = null!;
-
-    public DbSet<Usuario> Usuarios { set; get; } = null!;
-    #region
 }
