@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\lp4\\Barberia\\Server\\Barberia.Server.csproj": {}
+    "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Server\\Barberia.Server.csproj": {}
   },
   "projects": {
-    "C:\\lp4\\Barberia\\Client\\Barberia.Client.csproj": {
+    "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Client\\Barberia.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\lp4\\Barberia\\Client\\Barberia.Client.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Client\\Barberia.Client.csproj",
         "projectName": "Barberia.Client",
-        "projectPath": "C:\\lp4\\Barberia\\Client\\Barberia.Client.csproj",
-        "packagesPath": "C:\\Users\\Zacaria\\.nuget\\packages\\",
-        "outputPath": "C:\\lp4\\Barberia\\Client\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Client\\Barberia.Client.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zacaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\lp4\\Barberia\\Shared\\Barberia.Shared.csproj": {
-                "projectPath": "C:\\lp4\\Barberia\\Shared\\Barberia.Shared.csproj"
+              "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Shared\\Barberia.Shared.csproj": {
+                "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Shared\\Barberia.Shared.csproj"
               }
             }
           }
@@ -90,20 +90,20 @@
         }
       }
     },
-    "C:\\lp4\\Barberia\\Server\\Barberia.Server.csproj": {
+    "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Server\\Barberia.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\lp4\\Barberia\\Server\\Barberia.Server.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Server\\Barberia.Server.csproj",
         "projectName": "Barberia.Server",
-        "projectPath": "C:\\lp4\\Barberia\\Server\\Barberia.Server.csproj",
-        "packagesPath": "C:\\Users\\Zacaria\\.nuget\\packages\\",
-        "outputPath": "C:\\lp4\\Barberia\\Server\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Server\\Barberia.Server.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zacaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,11 +119,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\lp4\\Barberia\\Client\\Barberia.Client.csproj": {
-                "projectPath": "C:\\lp4\\Barberia\\Client\\Barberia.Client.csproj"
+              "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Client\\Barberia.Client.csproj": {
+                "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Client\\Barberia.Client.csproj"
               },
-              "C:\\lp4\\Barberia\\Shared\\Barberia.Shared.csproj": {
-                "projectPath": "C:\\lp4\\Barberia\\Shared\\Barberia.Shared.csproj"
+              "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Shared\\Barberia.Shared.csproj": {
+                "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Shared\\Barberia.Shared.csproj"
               }
             }
           }
@@ -166,20 +166,20 @@
         }
       }
     },
-    "C:\\lp4\\Barberia\\Shared\\Barberia.Shared.csproj": {
+    "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Shared\\Barberia.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\lp4\\Barberia\\Shared\\Barberia.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Shared\\Barberia.Shared.csproj",
         "projectName": "Barberia.Shared",
-        "projectPath": "C:\\lp4\\Barberia\\Shared\\Barberia.Shared.csproj",
-        "packagesPath": "C:\\Users\\Zacaria\\.nuget\\packages\\",
-        "outputPath": "C:\\lp4\\Barberia\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Shared\\Barberia.Shared.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\Documents\\GitHub\\Barberia\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zacaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
