@@ -1,9 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
 
-
-
-namespace Barberia.Server.Models;
+namespace BARBERIA.Server.Models;
 
 public class Usuario 
 {
