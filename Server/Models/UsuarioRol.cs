@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-
-
+using BARBERIA.Served.Requests;
+using BARBERIA.Served.Records;
 
 
 namespace BARBERIA.Server.Models;
@@ -15,5 +15,32 @@ public class UsuarioRol
     public bool PermisoParaCrear { get; set; }
     public bool PermisoParaEditar{ get; set; }
     public bool PermisoParaEliminar{ get; set; }
+
+    public static UsuarioRol Crear(UsuarioRolCreateRequest request)
+    {
+        return new UsuarioRol(){ 
+            Nombre = request.Nombre,
+            PermisoParaCrear = request.PermisoParaCrear, 
+            PermisoParaEditar = request.PermisoParaEditar, 
+            PermisoParaEliminar = request.PermisoParaEliminar, 
+            };
+    }
+
+     public void Modificar(UsuarioRolUpdateRequest request){
+        if(Nombre != request.Nombre)
+            Nombre = request.Nombre;
+        if(PermisoParaCrear!= request.PermisoParaCrear)
+            PermisoParaCrear = request.PermisoParaCrear;
+        if(PermisoParaEditar!=request.PermisoParaEditar)
+            PermisoParaEditar = request.PermisoParaEditar;
+        if(PermisoParaEliminar!=request.PermisoParaEliminar)
+            PermisoParaEliminar = request.PermisoParaEliminar;
+    }
+
+    public UsuarioRolRecord ToRecord()
+    {
+        return new UsuarioRolRecord(Id,Nombre,PermisoParaCrear,PermisoParaEditar,PermisoParaEliminar);
+    }
+
 }
 
