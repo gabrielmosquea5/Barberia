@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using BARBERIA.Served.Requests;
-using BARBERIA.Served.Records;
+
 
 
 namespace BARBERIA.Server.Models;
@@ -37,10 +37,7 @@ public class UsuarioRol
             PermisoParaEliminar = request.PermisoParaEliminar;
     }
 
-    public UsuarioRolRecord ToRecord()
-    {
-        return new UsuarioRolRecord(Id,Nombre,PermisoParaCrear,PermisoParaEditar,PermisoParaEliminar);
-    }
+  
 
 }
 

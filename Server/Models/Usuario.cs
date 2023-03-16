@@ -13,5 +13,6 @@ public class Usuario
         public string Nickname  { get; set; } = null!;
         public string Password  { get; set; } = null!;
         
+        
 }
 
