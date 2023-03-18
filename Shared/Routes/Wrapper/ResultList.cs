@@ -1,5 +1,5 @@
 
-namespace Barberia.Shared.Wrapper
+namespace Barberia.Shared.Routes.Wrapper
 
 public class ResultList<T>:Result
 {
