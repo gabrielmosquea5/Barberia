@@ -1,13 +1,11 @@
 
 using System.ComponentModel.DataAnnotations;
 
-namespace BARBERIA.Served.Requests;
+namespace Barberia.Served.Requests;
 
-public class UsuarioRolUpdateRequest : UsuarioRolCreateRequest
+public class UsuarioRolUpdateRequest : UsuarioRolCreateRequest 
 {
-    
-    [Required(ErrorMessage = "Se debe proporcionar el Id del usuario a modificar.")]
-    
-    public int Id { get; set; }
+     [Required(ErrorMessage = "Se debe proporcionar el Id del usuario a modificar.")]
+    public int Id { get; set; } 
 
 }
