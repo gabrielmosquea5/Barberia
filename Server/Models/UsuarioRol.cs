@@ -1,11 +1,11 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 using Barberia.Served.Requests;
-using Barberia.Served.Records;  
+using Barberia.Shared.Records;
 
+namespace BARBERIA.Server.Models; m
 
-namespace BARBERIA.Server.Models;m
-
-public class UsuarioRol
+public  class UsuarioRol
 
 {
     [Key]
@@ -36,7 +36,8 @@ public class UsuarioRol
             PermisoParaEliminar = request.PermisoParaEliminar;
     }
     
-    public static UsuarioRolRecord Torecord()
+    public static Usuari
+    oRolRecord Torecord()
      {
         return new UsuarioRolRecord(Id,Nombre,PermisoParaCrear,PermisoParaEditar,PermisoParaEliminar);
      }

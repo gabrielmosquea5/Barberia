@@ -21,7 +21,8 @@ public class ResultList<T>:Result
     public static ResultList<T> Success(IEnumerable<T> items)
     {
         return new ResultList<T>(){
-            Succeeded = true, 
+            
+             = true, 
             Message = new List<string>(){"👌"}, 
             Items = items
             };
