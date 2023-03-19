@@ -1,4 +1,3 @@
-using System;
 using System.ComponentModel.DataAnnotations;
 using Barberia.Served.Requests;
 using Barberia.Served.Records;  
