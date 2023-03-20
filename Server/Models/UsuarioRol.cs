@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Barberia.Served.Requests;
 using Barberia.Shared.Records;
 
-namespace BARBERIA.Server.Models; m
+namespace BARBERIA.Server.Models; 
 
 public  class UsuarioRol
 

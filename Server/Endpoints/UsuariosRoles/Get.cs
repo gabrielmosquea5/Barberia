@@ -4,7 +4,9 @@ using Barberia.Server.Context;
 using Barberia.Server.Models;
 using Barberia.Shared.Records;
 using Barberia.Shared.Routes;
+using Barberia.Shared.Routes.Wrapper;
 using Barberia.Shared.Wrapper;
+using BARBERIA.Server.Context;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,10 +17,7 @@ public class Get : EndpointBaseAsync.WithoutRequest.WithActionResult<Respuesta>
 {
     private readonly IMyDbContext dbContext;
 
-    public Get(IMyDbContext dbContext)
-    {
-        this.dbContext = dbContext;
-    }
+    public Get(IMyDbContext dbContext) => this.dbContext = dbContext;
     [HttpGet(UsuarioRolRouteManager.BASE)]
     public override async Task<ActionResult<Respuesta>> HandleAsync(CancellationToken cancellationToken = default)
     {
