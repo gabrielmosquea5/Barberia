@@ -1,0 +1,25 @@
+@page "/rol/crear"
+@page "/rol/editar/{Id:int}"
+
+<Editform Model="@Rol"OnValidsubmit="send">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <label>Nombre</label>
+    <InputText @binD-Value="Rol.Nombre"></InputText>
+    <button type="submit"class="btn btn-success">OK</button>
+
+</Editform>
+
+@code
+{
+    [parameter]
+    public int Id {get; set; } = 0;
+
+   public UsuarioRolUpdateRequest Rol {get; set; } = new UsuarioUpdateRequest();
+
+   public async void send()
+   {
+    var resultdo = await rolesManager.CreateAsync(Rol);
+   }
+
+}
